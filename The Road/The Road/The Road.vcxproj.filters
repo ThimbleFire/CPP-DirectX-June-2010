@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\sounds">
+      <UniqueIdentifier>{d3a68706-e931-4dc7-a717-b7129621d622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="directX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceRectangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VGameScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="directX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceRectangle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VGameScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\fonts\Small_Pixel_S9_BD1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S9_BD1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S9_BD2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S9_BD2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S12_BD1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S12_BD1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S12_BD2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S12_BD2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S9_Embosed.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\textures\btn_down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\textures\btn_up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\fonts\Small_Pixel_S9_Embosed.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\texture.ps">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\texture.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\textures\window.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\sounds\beep4.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\chirp1.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\chirp2.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\explosion1.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Explosion2.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\explosion3.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\explosion4.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Jump.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Jump1.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Launch sound.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\menuSelectionChange.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\menuSelectionChange2.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\power up.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Randomize30.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Randomize42.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\Randomize64.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\sound01.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\spooky.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\test.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\tounge.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\beep.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\beep2.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\sounds\beep3.wav">
+      <Filter>Resource Files\sounds</Filter>
+    </None>
+    <None Include="content\textures\mainMenuBackground.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

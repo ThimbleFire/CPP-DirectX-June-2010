@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4721019F-A9EA-4AF5-B594-04542329B257}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TheRoad</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xinput.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="directX.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="ScreenManager.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="SoundEngine.cpp" />
+    <ClCompile Include="SourceRectangle.cpp" />
+    <ClCompile Include="Texture2D.cpp" />
+    <ClCompile Include="TextureShader.cpp" />
+    <ClCompile Include="VertexBuffer2D.cpp" />
+    <ClCompile Include="VGameScreen.cpp" />
+    <ClCompile Include="Window.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="directX.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="ScreenManager.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="SoundEngine.h" />
+    <ClInclude Include="SourceRectangle.h" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="TextureShader.h" />
+    <ClInclude Include="VertexBuffer2D.h" />
+    <ClInclude Include="VGameScreen.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\fonts\Small_Pixel_S12_BD1.png" />
+    <None Include="content\fonts\Small_Pixel_S12_BD1.txt" />
+    <None Include="content\fonts\Small_Pixel_S12_BD2.png" />
+    <None Include="content\fonts\Small_Pixel_S12_BD2.txt" />
+    <None Include="content\fonts\Small_Pixel_S9_BD1.png" />
+    <None Include="content\fonts\Small_Pixel_S9_BD1.txt" />
+    <None Include="content\fonts\Small_Pixel_S9_BD2.png" />
+    <None Include="content\fonts\Small_Pixel_S9_BD2.txt" />
+    <None Include="content\fonts\Small_Pixel_S9_Embosed.png" />
+    <None Include="content\fonts\Small_Pixel_S9_Embosed.txt" />
+    <None Include="content\sounds\beep.wav" />
+    <None Include="content\sounds\beep2.wav" />
+    <None Include="content\sounds\beep3.wav" />
+    <None Include="content\sounds\beep4.wav" />
+    <None Include="content\sounds\chirp1.wav" />
+    <None Include="content\sounds\chirp2.wav" />
+    <None Include="content\sounds\explosion1.wav" />
+    <None Include="content\sounds\Explosion2.wav" />
+    <None Include="content\sounds\explosion3.wav" />
+    <None Include="content\sounds\explosion4.wav" />
+    <None Include="content\sounds\Jump.wav" />
+    <None Include="content\sounds\Jump1.wav" />
+    <None Include="content\sounds\Launch sound.wav" />
+    <None Include="content\sounds\menuSelectionChange.wav" />
+    <None Include="content\sounds\menuSelectionChange2.wav" />
+    <None Include="content\sounds\power up.wav" />
+    <None Include="content\sounds\Randomize30.wav" />
+    <None Include="content\sounds\Randomize42.wav" />
+    <None Include="content\sounds\Randomize64.wav" />
+    <None Include="content\sounds\sound01.wav" />
+    <None Include="content\sounds\spooky.wav" />
+    <None Include="content\sounds\test.wav" />
+    <None Include="content\sounds\tounge.wav" />
+    <None Include="content\textures\btn_down.png" />
+    <None Include="content\textures\btn_up.png" />
+    <None Include="content\textures\mainMenuBackground.png" />
+    <None Include="content\textures\window.png" />
+    <None Include="Shaders\texture.ps" />
+    <None Include="Shaders\texture.vs" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
